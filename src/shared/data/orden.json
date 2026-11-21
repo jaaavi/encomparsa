@@ -1,0 +1,832 @@
+[
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 1,
+  "comparsa": "Andaluces",
+  "bando": "cristiano",
+  "cargo": "Filà del Capitán",
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 2,
+  "comparsa": "Aragonesos",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 3,
+  "comparsa": "Alcodianos",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 4,
+  "comparsa": "Cruzados",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 5,
+  "comparsa": "Muntanyesos",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 6,
+  "comparsa": "Tomasinas",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 7,
+  "comparsa": "Navarros",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 8,
+  "comparsa": "Almogávares",
+  "bando": "cristiano",
+  "cargo": "Filà del Mig",
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 9,
+  "comparsa": "Mozárabes",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 10,
+  "comparsa": "Vascos",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 11,
+  "comparsa": "Guzmanes",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 12,
+  "comparsa": "Labradores",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 13,
+  "comparsa": "Cides",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Cristianos",
+  "fecha": "2026-04-25",
+  "orden": 14,
+  "comparsa": "Asturianos",
+  "bando": "cristiano",
+  "cargo": "Filà del Alférez",
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 1,
+  "comparsa": "Marrakesch",
+  "bando": "moro",
+  "cargo": "Filà del Capitán",
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 2,
+  "comparsa": "Abencerrajes",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 3,
+  "comparsa": "Mudéjares",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 4,
+  "comparsa": "Ligeros",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 5,
+  "comparsa": "Cordón",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 6,
+  "comparsa": "Magenta",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 7,
+  "comparsa": "Verdes",
+  "bando": "moro",
+  "cargo": "Filà del Mig",
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 8,
+  "comparsa": "Chano",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 9,
+  "comparsa": "Domingo Miques",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 10,
+  "comparsa": "Judíos",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 11,
+  "comparsa": "Llana",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 12,
+  "comparsa": "Benimerines",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 13,
+  "comparsa": "Berberiscos",
+  "bando": "moro",
+  "cargo": null,
+  "nota": null
+ },
+ {
+  "fiesta": "alcoy",
+  "desfile": "Entrada de Moros",
+  "fecha": "2026-04-25",
+  "orden": 14,
+  "comparsa": "Realistes",
+  "bando": "moro",
+  "cargo": "Filà del Alférez",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 1,
+  "comparsa": "Estudiantes",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 2,
+  "comparsa": "Zíngaros",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 3,
+  "comparsa": "Contrabandistas",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 4,
+  "comparsa": "Cristianos",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 5,
+  "comparsa": "Piratas",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 6,
+  "comparsa": "Huestes del Cadí",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 7,
+  "comparsa": "Moros Musulmanes",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 8,
+  "comparsa": "Moros Marroquíes",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Triunfal Entrada Cristiana",
+  "fecha": "2026-05-30",
+  "orden": 9,
+  "comparsa": "Moros Realistas",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 1,
+  "comparsa": "Huestes del Cadí",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 2,
+  "comparsa": "Moros Musulmanes",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 3,
+  "comparsa": "Moros Marroquíes",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 4,
+  "comparsa": "Moros Realistas",
+  "bando": "moro",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 5,
+  "comparsa": "Estudiantes",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 6,
+  "comparsa": "Zíngaros",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 7,
+  "comparsa": "Contrabandistas",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 8,
+  "comparsa": "Cristianos",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "elda",
+  "desfile": "Majestuosa Entrada Mora",
+  "fecha": "2026-05-31",
+  "orden": 9,
+  "comparsa": "Piratas",
+  "bando": "cristiano",
+  "cargo": "Capitán y abanderada",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 1,
+  "comparsa": "Cristianos",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 2,
+  "comparsa": "Garibaldinos",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 3,
+  "comparsa": "Alagoneses",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 4,
+  "comparsa": "Caballeros de Cardona",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 5,
+  "comparsa": "Árabes Emires",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 6,
+  "comparsa": "Turcos",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 7,
+  "comparsa": "Marruecos",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "sax",
+  "desfile": "Procesión de San Blas (orden de capitanes, dato 2025)",
+  "fecha": "2025-02-03",
+  "orden": 8,
+  "comparsa": "Moros",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": null
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Espanyoletos",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Granaders",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Contrabandistes",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Terç de Suavos",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Estudiants",
+  "bando": "cristiano",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Moros Vells",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Marrocs",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Moros Marins",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "bocairent",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-02-07",
+  "orden": null,
+  "comparsa": "Mosqueters",
+  "bando": "moro",
+  "cargo": "Capitanía",
+  "nota": "Orden interno no publicado; abre el bando cristiano"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Cristians",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Estudiants",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Maseros",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Contrabandistes",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Jordians",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Moros Vells",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Moros Nous",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Marrocs",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Pirates",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "banyeres-de-mariola",
+  "desfile": "Entrada de Moros i Cristians",
+  "fecha": "2026-04-22",
+  "orden": null,
+  "comparsa": "Califes",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado; filaes por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Tercio de Flandes",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Marinos",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Vizcaínos",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Estudiantes",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Labradores",
+  "bando": "cristiano",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Moros Viejos",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Moros Nuevos",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Moros Beduinos",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Berberiscos",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ },
+ {
+  "fiesta": "petrer",
+  "desfile": "Entradas Cristiana y Mora",
+  "fecha": "2026-05-16",
+  "orden": null,
+  "comparsa": "Moros Fronterizos",
+  "bando": "moro",
+  "cargo": null,
+  "nota": "Orden no publicado (tríptico ilegible); comparsas por bando"
+ }
+]

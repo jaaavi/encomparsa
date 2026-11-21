@@ -1,0 +1,1520 @@
+/* [project]/node_modules/@fontsource/cinzel-decorative/700.css [app-client] (css) */
+@font-face {
+  font-family: Cinzel Decorative;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/cinzel-decorative-latin-ext-700-normal.2d2d7a8s4g3rk.woff2") format("woff2"), url("../media/cinzel-decorative-latin-ext-700-normal.2imctsc6eo92h.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Cinzel Decorative;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/cinzel-decorative-latin-700-normal.2rd171-z22js-.woff2") format("woff2"), url("../media/cinzel-decorative-latin-700-normal.36spkdmacprzj.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/node_modules/@fontsource/cinzel/600.css [app-client] (css) */
+@font-face {
+  font-family: Cinzel;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../media/cinzel-latin-ext-600-normal.2qdvwn5v1kjre.woff2") format("woff2"), url("../media/cinzel-latin-ext-600-normal.0gd6-ge4mf7f_.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Cinzel;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../media/cinzel-latin-600-normal.2kktoxdq6k5qd.woff2") format("woff2"), url("../media/cinzel-latin-600-normal.0s-gj738stn36.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/node_modules/@fontsource/cinzel/700.css [app-client] (css) */
+@font-face {
+  font-family: Cinzel;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/cinzel-latin-ext-700-normal.1ddvn_xnk_h2l.woff2") format("woff2"), url("../media/cinzel-latin-ext-700-normal.3k290cippcvn_.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Cinzel;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/cinzel-latin-700-normal.1fxfn3cl79teb.woff2") format("woff2"), url("../media/cinzel-latin-700-normal.0wpqk51og166a.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/node_modules/@fontsource/alegreya/700.css [app-client] (css) */
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-cyrillic-ext-700-normal.0rjdj6bi5n8ee.woff2") format("woff2"), url("../media/alegreya-cyrillic-ext-700-normal.2c_ycdft1lkw3.woff") format("woff");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-cyrillic-700-normal.3dg0snu8hyg67.woff2") format("woff2"), url("../media/alegreya-cyrillic-700-normal.0o5uh4fb78k2x.woff") format("woff");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-greek-ext-700-normal.2iz8sf27mdis1.woff2") format("woff2"), url("../media/alegreya-greek-ext-700-normal.2_o1x62rrf1f4.woff") format("woff");
+  unicode-range: U+1F??;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-greek-700-normal.2qxq8hbjl_30t.woff2") format("woff2"), url("../media/alegreya-greek-700-normal.1k-mwerk2tvpz.woff") format("woff");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-vietnamese-700-normal.318re-zlhta6z.woff2") format("woff2"), url("../media/alegreya-vietnamese-700-normal.3mr7sf0fchntc.woff") format("woff");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-latin-ext-700-normal.3feo9swzvd6v5.woff2") format("woff2"), url("../media/alegreya-latin-ext-700-normal.1z1ve08w4r096.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-latin-700-normal.1zb547155kto-.woff2") format("woff2"), url("../media/alegreya-latin-700-normal.3dnrd6uq4zoti.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/node_modules/@fontsource/alegreya/800.css [app-client] (css) */
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../media/alegreya-cyrillic-ext-800-normal.30web3ygghzoa.woff2") format("woff2"), url("../media/alegreya-cyrillic-ext-800-normal.3exkw4nv3-fhw.woff") format("woff");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../media/alegreya-cyrillic-800-normal.2zht_ubhuac57.woff2") format("woff2"), url("../media/alegreya-cyrillic-800-normal.0n6i9lr8t1-6a.woff") format("woff");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../media/alegreya-greek-ext-800-normal.2cwmw1kv2c3a5.woff2") format("woff2"), url("../media/alegreya-greek-ext-800-normal.31zkwl0r3c-pc.woff") format("woff");
+  unicode-range: U+1F??;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../media/alegreya-greek-800-normal.1qpjbwsd67og3.woff2") format("woff2"), url("../media/alegreya-greek-800-normal.1joe60vrwl5ol.woff") format("woff");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../media/alegreya-vietnamese-800-normal.1wd7gbzq8j-og.woff2") format("woff2"), url("../media/alegreya-vietnamese-800-normal.1s-ow_rwrg9je.woff") format("woff");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../media/alegreya-latin-ext-800-normal.02mg0y7zdvmhv.woff2") format("woff2"), url("../media/alegreya-latin-ext-800-normal.1c0sr54wnwe-j.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../media/alegreya-latin-800-normal.0mz0v_-_5cxmn.woff2") format("woff2"), url("../media/alegreya-latin-800-normal.0sjqap-xrein8.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/node_modules/@fontsource/alegreya-sans/400.css [app-client] (css) */
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../media/alegreya-sans-cyrillic-ext-400-normal.0qope_y2f97m2.woff2") format("woff2"), url("../media/alegreya-sans-cyrillic-ext-400-normal.20czj2cewcdru.woff") format("woff");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../media/alegreya-sans-cyrillic-400-normal.1wownwsjtmlp5.woff2") format("woff2"), url("../media/alegreya-sans-cyrillic-400-normal.11idrjhce7mp9.woff") format("woff");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../media/alegreya-sans-greek-ext-400-normal.2e66xhoc6umnt.woff2") format("woff2"), url("../media/alegreya-sans-greek-ext-400-normal.2xmmk476-z31j.woff") format("woff");
+  unicode-range: U+1F??;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../media/alegreya-sans-greek-400-normal.1bwqw8e6h4ihi.woff2") format("woff2"), url("../media/alegreya-sans-greek-400-normal.2db99e-ojtqaf.woff") format("woff");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../media/alegreya-sans-vietnamese-400-normal.41nq70uixvwgk.woff2") format("woff2"), url("../media/alegreya-sans-vietnamese-400-normal.3pfoxh_x-c1kl.woff") format("woff");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../media/alegreya-sans-latin-ext-400-normal.0r-h4p5od5gxu.woff2") format("woff2"), url("../media/alegreya-sans-latin-ext-400-normal.0yn07lunfrzgs.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../media/alegreya-sans-latin-400-normal.1ckzm0l63aud7.woff2") format("woff2"), url("../media/alegreya-sans-latin-400-normal.24kj45z55xw3p.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/node_modules/@fontsource/alegreya-sans/500.css [app-client] (css) */
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../media/alegreya-sans-cyrillic-ext-500-normal.18tb7wa4nzhvs.woff2") format("woff2"), url("../media/alegreya-sans-cyrillic-ext-500-normal.0dqhkiv55_cl1.woff") format("woff");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../media/alegreya-sans-cyrillic-500-normal.22jk2pu-kvgf-.woff2") format("woff2"), url("../media/alegreya-sans-cyrillic-500-normal.0pzm9_jk96plz.woff") format("woff");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../media/alegreya-sans-greek-ext-500-normal.33v0zlf9paui-.woff2") format("woff2"), url("../media/alegreya-sans-greek-ext-500-normal.1q6ocvlocf_p0.woff") format("woff");
+  unicode-range: U+1F??;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../media/alegreya-sans-greek-500-normal.0inttz9ljdrb0.woff2") format("woff2"), url("../media/alegreya-sans-greek-500-normal.0ud3n-_ing8-l.woff") format("woff");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../media/alegreya-sans-vietnamese-500-normal.1ojq1hjic5c49.woff2") format("woff2"), url("../media/alegreya-sans-vietnamese-500-normal.0yy92_s97skhc.woff") format("woff");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../media/alegreya-sans-latin-ext-500-normal.32zr1fwxi15fi.woff2") format("woff2"), url("../media/alegreya-sans-latin-ext-500-normal.2lrk3-lbtxtp_.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../media/alegreya-sans-latin-500-normal.08pa3ovb_ejau.woff2") format("woff2"), url("../media/alegreya-sans-latin-500-normal.212mslefuxlbx.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/node_modules/@fontsource/alegreya-sans/700.css [app-client] (css) */
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-sans-cyrillic-ext-700-normal.30u2g5k5c-w5k.woff2") format("woff2"), url("../media/alegreya-sans-cyrillic-ext-700-normal.43k2h4esr0sqi.woff") format("woff");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-sans-cyrillic-700-normal.3ncghi15d8d9a.woff2") format("woff2"), url("../media/alegreya-sans-cyrillic-700-normal.1o8x97le8y8er.woff") format("woff");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-sans-greek-ext-700-normal.0pef7mhbtslzp.woff2") format("woff2"), url("../media/alegreya-sans-greek-ext-700-normal.0zs8yaw85sytj.woff") format("woff");
+  unicode-range: U+1F??;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-sans-greek-700-normal.1qltmt9s8dw-7.woff2") format("woff2"), url("../media/alegreya-sans-greek-700-normal.22d8geavqkjwg.woff") format("woff");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-sans-vietnamese-700-normal.2uo8g25l7kacn.woff2") format("woff2"), url("../media/alegreya-sans-vietnamese-700-normal.1_idach1f7dso.woff") format("woff");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-sans-latin-ext-700-normal.2o3netzqi20ez.woff2") format("woff2"), url("../media/alegreya-sans-latin-ext-700-normal.1jy_4a8ceanz5.woff") format("woff");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../media/alegreya-sans-latin-700-normal.409o-3tjiconj.woff2") format("woff2"), url("../media/alegreya-sans-latin-700-normal.1rrn71u85e3l6.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --carmesi: #8e1b23;
+  --carmesi-osc: #6b1219;
+  --oro: #c9a13b;
+  --oro-claro: #e9c877;
+  --oro-suave: #e2cf9f;
+  --pergamino: #f3e9d2;
+  --tarjeta: #faf4e6;
+  --tinta: #22180f;
+  --texto-2: #4a3b2a;
+  --texto-3: #5c4b36;
+  --lapis: #1f3a6e;
+  --lapis-bg: #dde5f3;
+  --verde: #1f5e4b;
+  --verde-bg: #dcebe3;
+  --verde-txt: #174536;
+  --aviso-bg: #f2d3cc;
+  --f-marca: "Cinzel Decorative", Georgia, serif;
+  --f-label: "Cinzel", Georgia, serif;
+  --f-titulo: "Alegreya", Georgia, serif;
+  --f-texto: "Alegreya Sans", system-ui, sans-serif;
+  --ancho: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--pergamino);
+  color: var(--tinta);
+  font-family: var(--f-texto);
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--carmesi);
+}
+
+a:hover {
+  color: var(--carmesi-osc);
+}
+
+h1, h2, h3 {
+  font-family: var(--f-titulo);
+  text-wrap: balance;
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0;
+}
+
+.laceria {
+  display: block;
+}
+
+.contenedor {
+  max-width: var(--ancho);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.etiqueta {
+  font-family: var(--f-label);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--carmesi);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.muted {
+  color: var(--texto-3);
+}
+
+.cabecera {
+  background: var(--carmesi);
+  color: var(--pergamino);
+  border-bottom: 3px solid var(--oro);
+}
+
+.cabecera-in {
+  max-width: var(--ancho);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+}
+
+.marca {
+  color: inherit;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  display: flex;
+}
+
+.marca:hover {
+  color: inherit;
+}
+
+.marca-txt {
+  font-family: var(--f-marca);
+  color: var(--oro-claro);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav {
+  flex-wrap: wrap;
+  gap: 4px;
+  display: flex;
+}
+
+.nav a {
+  color: var(--pergamino);
+  font-family: var(--f-label);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background: var(--carmesi-osc);
+  color: var(--oro-claro);
+}
+
+.pie {
+  background: var(--tinta);
+  color: #d9cbae;
+  border-top: 3px solid var(--oro);
+  margin-top: 72px;
+}
+
+.pie-in {
+  max-width: var(--ancho);
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto;
+  padding: 36px 20px 48px;
+  display: flex;
+}
+
+.pie .marca-txt {
+  font-size: 20px;
+}
+
+.pie-nota {
+  color: #b5a68a;
+  max-width: 640px;
+  font-size: 14px;
+}
+
+.filete {
+  background: var(--tarjeta);
+  border: 2px solid var(--oro);
+  outline: 1px solid var(--oro-suave);
+  outline-offset: -6px;
+  border-radius: 4px;
+}
+
+.arco {
+  border-radius: 160px 160px 6px 6px;
+}
+
+.titulo-seccion {
+  align-items: center;
+  gap: 12px;
+  margin: 56px 0 20px;
+  display: flex;
+}
+
+.titulo-seccion h2 {
+  font-size: 32px;
+}
+
+.titulo-seccion .linea {
+  background: var(--oro);
+  flex: 1;
+  height: 2px;
+}
+
+.escudo {
+  color: var(--pergamino);
+  border-radius: 3px 3px 28px 28px;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+  display: flex;
+}
+
+.escudo .num {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.escudo .mes {
+  font-family: var(--f-label);
+  letter-spacing: .1em;
+  color: var(--oro-claro);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.chip {
+  border: 2px solid var(--oro);
+  background: var(--tarjeta);
+  height: 40px;
+  color: var(--tinta);
+  font: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 3px;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.chip:hover {
+  color: var(--tinta);
+  background: #f7e7be;
+}
+
+.chip[aria-pressed="true"], .chip[aria-selected="true"] {
+  background: var(--carmesi);
+  color: var(--pergamino);
+}
+
+.tag {
+  border-radius: 3px;
+  padding: 1px 8px;
+  font-size: 13px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.tag-cristiano {
+  background: var(--lapis-bg);
+  color: var(--lapis);
+}
+
+.tag-moro {
+  background: var(--verde-bg);
+  color: var(--verde-txt);
+}
+
+.tag-oro {
+  background: var(--oro);
+  color: var(--tinta);
+}
+
+.tag-polvora {
+  background: var(--aviso-bg);
+  color: #5e0f15;
+}
+
+.boton {
+  background: var(--carmesi);
+  border: 2px solid var(--oro);
+  height: 50px;
+  color: var(--pergamino);
+  font-family: var(--f-label);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.boton:hover {
+  background: var(--carmesi-osc);
+  color: var(--oro-claro);
+}
+
+.boton-sec {
+  color: var(--carmesi);
+  background: none;
+}
+
+.boton-sec:hover {
+  background: var(--carmesi);
+  color: var(--pergamino);
+}
+
+.hero {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+  padding: 48px 0 8px;
+  display: grid;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 6vw, 64px);
+}
+
+.hero h1 em {
+  color: var(--carmesi);
+  font-style: normal;
+}
+
+.hero-txt {
+  flex-direction: column;
+  gap: 18px;
+  display: flex;
+}
+
+.hero-txt p {
+  color: var(--texto-2);
+  max-width: 540px;
+  font-size: 19px;
+}
+
+.hero-acciones {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.proxima {
+  text-align: center;
+  background: var(--carmesi);
+  color: var(--pergamino);
+  border: 3px solid var(--oro);
+  outline: 1px solid var(--oro-claro);
+  outline-offset: -9px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 28px 28px;
+  display: flex;
+}
+
+.proxima .etiqueta {
+  color: var(--oro-claro);
+}
+
+.proxima h2 {
+  color: var(--pergamino);
+  font-size: 40px;
+}
+
+.proxima .cuenta {
+  font-family: var(--f-titulo);
+  color: var(--oro-claro);
+  font-variant-numeric: tabular-nums;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.proxima .aprox {
+  color: #e9d6b5;
+  font-size: 14px;
+}
+
+.proxima a.boton {
+  background: var(--tinta);
+}
+
+.rejilla {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  display: grid;
+}
+
+.tarjeta-fiesta {
+  background: var(--tarjeta);
+  border: 2px solid var(--oro);
+  color: var(--tinta);
+  border-radius: 4px;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: flex;
+}
+
+.tarjeta-fiesta:hover {
+  color: var(--tinta);
+  background: #f7e7be;
+}
+
+.tarjeta-fiesta .nombre {
+  font-family: var(--f-titulo);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.tarjeta-fiesta .sub {
+  color: var(--texto-3);
+  font-size: 14px;
+}
+
+.destacadas {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.destacada {
+  text-align: center;
+  color: var(--pergamino);
+  border: 3px solid var(--oro);
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  min-height: 260px;
+  padding: 44px 20px 22px;
+  text-decoration: none;
+  display: flex;
+}
+
+.destacada:hover {
+  color: var(--oro-claro);
+  filter: brightness(1.08);
+}
+
+.destacada h3 {
+  font-size: 28px;
+}
+
+.destacada .etiqueta {
+  color: var(--oro-claro);
+}
+
+.banda-app {
+  background: var(--tinta);
+  color: var(--pergamino);
+  border: 3px solid var(--oro);
+  border-radius: 4px;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  margin-top: 64px;
+  padding: 36px 28px;
+  display: grid;
+}
+
+.banda-app h2 {
+  color: var(--oro-claro);
+  font-size: 34px;
+}
+
+.banda-app ul {
+  color: #e9ddc4;
+  flex-direction: column;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.banda-app li {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.tiendas {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  display: flex;
+}
+
+.tiendas .boton {
+  background: var(--carmesi);
+}
+
+.tiendas small {
+  color: #b5a68a;
+  text-align: center;
+}
+
+.cab-pagina {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 44px 0 8px;
+  display: flex;
+}
+
+.cab-pagina h1 {
+  font-size: clamp(36px, 5vw, 54px);
+}
+
+.cab-pagina p {
+  color: var(--texto-2);
+  max-width: 640px;
+}
+
+.filtros {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0 8px;
+  display: flex;
+}
+
+.mes-titulo {
+  align-items: center;
+  gap: 12px;
+  margin: 36px 0 14px;
+  display: flex;
+}
+
+.mes-titulo h2 {
+  font-family: var(--f-label);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--carmesi);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mes-titulo .linea {
+  background: var(--oro);
+  flex: 1;
+  height: 2px;
+}
+
+.ficha-cab {
+  background: var(--carmesi);
+  color: var(--pergamino);
+  border-bottom: 3px solid var(--oro);
+}
+
+.ficha-cab-in {
+  max-width: var(--ancho);
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto;
+  padding: 44px 20px 40px;
+  display: flex;
+}
+
+.ficha-cab .etiqueta {
+  color: var(--oro-claro);
+}
+
+.ficha-cab h1 {
+  font-size: clamp(38px, 6vw, 60px);
+}
+
+.ficha-cab .fechas {
+  font-family: var(--f-titulo);
+  color: var(--oro-claro);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ficha-cab .tags {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  display: flex;
+}
+
+.ficha-cuerpo {
+  grid-template-columns: minmax(0, 1fr) 340px;
+  align-items: start;
+  gap: 32px;
+  display: grid;
+}
+
+.lateral {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+  position: sticky;
+  top: 20px;
+}
+
+.lateral .filete {
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px 20px;
+  display: flex;
+}
+
+.lateral h2 {
+  color: var(--carmesi);
+  font-size: 22px;
+}
+
+.dato {
+  flex-direction: column;
+  gap: 1px;
+  display: flex;
+}
+
+.dato dt {
+  font-family: var(--f-label);
+  letter-spacing: .16em;
+  color: var(--texto-3);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.dato dd {
+  margin: 0;
+}
+
+.dias {
+  gap: 8px;
+  padding: 4px 2px 10px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.dia {
+  border: 2px solid var(--oro);
+  background: var(--tarjeta);
+  width: 72px;
+  height: 76px;
+  color: var(--tinta);
+  cursor: pointer;
+  font: inherit;
+  border-radius: 3px 3px 30px 30px;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+  display: flex;
+}
+
+.dia .ds {
+  font-family: var(--f-label);
+  letter-spacing: .12em;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.dia .dn {
+  font-family: var(--f-titulo);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.dia[aria-selected="true"] {
+  background: var(--carmesi);
+  color: var(--pergamino);
+}
+
+.dia[aria-selected="true"] .ds {
+  color: var(--oro-claro);
+}
+
+.dia-titulo {
+  margin: 18px 0 12px;
+  font-size: 26px;
+}
+
+.actos {
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.acto {
+  background: var(--tarjeta);
+  border: 2px solid var(--oro);
+  border-radius: 4px;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px 16px;
+  display: grid;
+}
+
+.acto-principal {
+  border-color: var(--carmesi);
+  box-shadow: inset 4px 0 0 var(--carmesi);
+}
+
+.acto .hora {
+  font-family: var(--f-titulo);
+  color: var(--carmesi);
+  font-variant-numeric: tabular-nums;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.acto .hora.sin {
+  color: var(--texto-3);
+  font-size: 14px;
+  font-family: var(--f-texto);
+  font-weight: 700;
+}
+
+.acto h3 {
+  font-size: 20px;
+}
+
+.acto .meta {
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+  display: flex;
+}
+
+.acto .linea-dato {
+  color: var(--texto-2);
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.acto .linea-dato b {
+  color: var(--tinta);
+}
+
+.acto .nota {
+  color: var(--texto-3);
+  margin-top: 6px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.aviso {
+  background: var(--aviso-bg);
+  border: 2px solid var(--carmesi);
+  color: #5e0f15;
+  border-radius: 4px;
+  gap: 12px;
+  padding: 14px 16px;
+  font-size: 15px;
+  display: flex;
+}
+
+.bandos {
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  display: grid;
+}
+
+.bando {
+  border: 2px solid var(--oro);
+  background: var(--tarjeta);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bando-cab {
+  color: var(--pergamino);
+  font-family: var(--f-label);
+  letter-spacing: .16em;
+  padding: 12px 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.bando ul {
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 8px 16px 14px 40px;
+  display: flex;
+}
+
+.bando li {
+  font-family: var(--f-titulo);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.desfile {
+  margin-top: 18px;
+}
+
+.desfile h3 {
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.orden-lista {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.orden-lista li {
+  background: var(--tarjeta);
+  border: 2px solid var(--oro);
+  border-radius: 4px;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  display: flex;
+}
+
+.orden-lista .n {
+  width: 28px;
+  height: 34px;
+  color: var(--pergamino);
+  font-family: var(--f-titulo);
+  border-radius: 2px 2px 14px 14px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+  font-weight: 800;
+  display: flex;
+}
+
+.orden-lista .c {
+  font-family: var(--f-titulo);
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.orden-lista .cargo {
+  color: var(--texto-3);
+  font-size: 13px;
+}
+
+.vacio {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 28px;
+  display: flex;
+}
+
+.vacio h2 {
+  color: var(--carmesi);
+  font-size: 26px;
+}
+
+.fuentes {
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 15px;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .hero, .banda-app, .ficha-cuerpo {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .lateral {
+    position: static;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 16px;
+  }
+
+  .bandos {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .marca-txt {
+    font-size: 20px;
+  }
+
+  .titulo-seccion h2 {
+    font-size: 26px;
+  }
+
+  .proxima h2 {
+    font-size: 32px;
+  }
+
+  .proxima .cuenta {
+    font-size: 52px;
+  }
+
+  .acto {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+}
+
+.formulario {
+  flex-direction: column;
+  gap: 14px;
+  padding: 22px;
+  display: flex;
+}
+
+.formulario h2 {
+  color: var(--carmesi);
+  font-size: 26px;
+}
+
+.formulario label {
+  font-family: var(--f-label);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--texto-3);
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+}
+
+.formulario input {
+  font: inherit;
+  font-family: var(--f-texto);
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--tinta);
+  border: 2px solid var(--oro);
+  background: #fff;
+  border-radius: 4px;
+  min-height: 46px;
+  padding: 0 12px;
+  font-size: 17px;
+}
+
+button.boton {
+  cursor: pointer;
+  font: inherit;
+  font-family: var(--f-label);
+  letter-spacing: .12em;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+button.boton:disabled {
+  opacity: .6;
+  cursor: default;
+}
+
+.boton-peligro {
+  color: #b42318;
+  background: none;
+  border-color: #b42318;
+}
+
+.enlace-boton {
+  color: var(--carmesi);
+  font: inherit;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  align-self: flex-start;
+  padding: 0;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p.aviso {
+  display: block;
+}
+
+.exito {
+  background: var(--verde-bg);
+  border: 2px solid var(--verde);
+  color: var(--verde-txt);
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.plan-org {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 22px;
+  display: flex;
+}
+
+.plan-org h2 {
+  font-size: 26px;
+}
+
+.opciones-plan {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+}
+
+.precios {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+  display: grid;
+}
+
+.precio {
+  background: var(--tarjeta);
+  border: 3px solid var(--oro);
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 48px 26px 26px;
+  display: flex;
+}
+
+.precio-destacado {
+  border-color: var(--carmesi);
+  box-shadow: 0 0 0 4px var(--oro-suave);
+}
+
+.precio .cifra {
+  font-family: var(--f-titulo);
+  color: var(--carmesi);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.precio .cifra small {
+  color: var(--texto-3);
+  font-size: 18px;
+}
+
+.precio ul {
+  text-align: left;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px 0 12px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.precio li {
+  align-items: flex-start;
+  gap: 10px;
+  display: flex;
+}
+
+.precio li svg {
+  margin-top: 5px;
+}
+
+.faq {
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 40px;
+  padding: 24px;
+  display: flex;
+}
+
+.faq h2 {
+  color: var(--carmesi);
+  font-size: 28px;
+}
+
+.faq h3 {
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.legal {
+  max-width: 780px;
+}
+
+.legal h2 {
+  color: var(--carmesi);
+  margin: 28px 0 8px;
+  font-size: 24px;
+}
+
+.legal p, .legal li {
+  color: var(--texto-2);
+}
+
+.legal ul {
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.pie-enlaces {
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  display: flex;
+}
+
+.pie-enlaces a {
+  color: var(--oro-claro);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.pie-enlaces a:hover {
+  color: var(--oro-claro);
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: 3px solid var(--lapis);
+  outline-offset: 2px;
+}
+
+/*# sourceMappingURL=_1_knr3iz17hzw._.css.map*/
