@@ -205,3 +205,82 @@ p.aviso { display: block; }
 .pie-enlaces a { color: var(--oro-claro); text-decoration: none; font-size: 15px; }
 .pie-enlaces a:hover { text-decoration: underline; color: var(--oro-claro); }
 :focus-visible { outline: 3px solid var(--lapis); outline-offset: 2px; }
+
+/* Portada centrada en la app */
+.app-hero { background: radial-gradient(120% 90% at 85% 10%, #F7E7BE 0%, var(--pergamino) 55%); border-bottom: 2px solid var(--oro-suave); overflow: hidden; }
+.app-hero-in { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 32px; align-items: center; padding-top: 48px; padding-bottom: 48px; }
+.app-hero-txt { display: flex; flex-direction: column; gap: 20px; }
+.app-hero-txt h1 { font-size: clamp(40px, 6vw, 66px); }
+.app-hero-txt h1 em { font-style: normal; color: var(--carmesi); }
+.app-hero-txt > p { font-size: 19px; color: var(--texto-2); max-width: 560px; }
+.app-hero-nota { font-size: 15px !important; color: var(--texto-3) !important; }
+.app-hero-moviles { position: relative; height: 560px; }
+.app-hero-moviles .movil { position: absolute; width: 270px; }
+.app-hero-moviles .movil-delante { left: 50%; top: 0; transform: translateX(-30%) rotate(3deg); z-index: 2; }
+.app-hero-moviles .movil-atras { left: 50%; top: 48px; transform: translateX(-95%) rotate(-6deg); opacity: 0.95; }
+.movil { border: 9px solid var(--tinta); border-radius: 34px; overflow: hidden; background: var(--tinta); box-shadow: 0 22px 50px rgba(34, 24, 15, 0.28), 0 0 0 2px var(--oro); }
+.movil img { display: block; width: 100%; height: auto; }
+.tiendas-fila { display: flex; gap: 12px; flex-wrap: wrap; }
+.tienda { display: inline-flex; align-items: center; gap: 12px; height: 58px; padding: 0 20px 0 16px; border-radius: 10px; background: var(--tinta); color: #fff; text-decoration: none; border: 2px solid var(--tinta); font-family: var(--f-texto); font-weight: 700; font-size: 19px; line-height: 1.05; }
+.tienda span { display: flex; flex-direction: column; }
+.tienda small { font-weight: 500; font-size: 12px; letter-spacing: 0.02em; opacity: 0.85; }
+.tienda:hover { color: #fff; background: #000; }
+.tienda-pronto { opacity: 0.55; cursor: default; }
+.tiendas-fila.oscuro .tienda { background: #fff; color: var(--tinta); border-color: var(--oro); }
+.funciones { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.funcion { display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; }
+.funcion .movil { width: min(250px, 100%); margin-bottom: 8px; }
+.funcion h3 { font-size: 24px; color: var(--carmesi); }
+.funcion p { color: var(--texto-2); max-width: 320px; }
+.banda-gestion { margin-top: 72px; background: var(--carmesi); color: var(--pergamino); border-top: 3px solid var(--oro); border-bottom: 3px solid var(--oro); overflow: hidden; }
+.banda-gestion-in { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 32px; align-items: center; padding-top: 48px; padding-bottom: 48px; }
+.banda-gestion-txt { display: flex; flex-direction: column; gap: 16px; }
+.banda-gestion .etiqueta { color: var(--oro-claro); }
+.banda-gestion h2 { font-size: clamp(30px, 4vw, 42px); color: var(--pergamino); }
+.banda-gestion ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; color: #F1E4CC; }
+.banda-gestion li { display: flex; gap: 10px; align-items: flex-start; }
+.banda-gestion li svg { margin-top: 6px; flex-shrink: 0; }
+.banda-gestion .boton { background: var(--tinta); }
+.banda-gestion-nota { align-self: center; color: var(--oro-claro); font-size: 15px; }
+.banda-gestion-moviles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.banda-gestion-moviles .movil:nth-child(2) { margin-top: 36px; }
+.banda-gestion-moviles .movil { border-width: 7px; border-radius: 26px; }
+.pasos { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.paso { padding: 22px 20px; display: flex; flex-direction: column; gap: 8px; }
+.paso-n { width: 40px; height: 46px; border-radius: 3px 3px 20px 20px; background: var(--carmesi); color: var(--oro-claro); font-family: var(--f-titulo); font-weight: 800; font-size: 22px; display: flex; align-items: center; justify-content: center; padding-bottom: 4px; }
+.paso h3 { font-size: 22px; }
+.paso p { color: var(--texto-2); }
+@media (max-width: 900px) {
+  .app-hero-in, .banda-gestion-in { grid-template-columns: minmax(0, 1fr); }
+  .app-hero-moviles { height: 470px; }
+  .app-hero-moviles .movil { width: 230px; }
+  .funciones, .pasos { grid-template-columns: minmax(0, 1fr); }
+  .funcion .movil { width: 230px; }
+}
+@media (max-width: 560px) {
+  .app-hero-in { padding-top: 32px; }
+  .app-hero-moviles { height: 420px; }
+  .app-hero-moviles .movil { width: 200px; }
+  .app-hero-moviles .movil-delante { transform: translateX(-20%) rotate(3deg); }
+  .app-hero-moviles .movil-atras { transform: translateX(-85%) rotate(-6deg); }
+  .tienda { flex: 1 1 160px; justify-content: center; }
+  .banda-gestion-moviles { gap: 8px; }
+  .banda-gestion-moviles .movil { border-width: 5px; border-radius: 18px; }
+}
+.nav a.nav-app { background: var(--oro); color: var(--tinta); }
+.nav a.nav-app:hover { background: var(--oro-claro); color: var(--tinta); }
+@media (max-width: 560px) {
+  .cabecera-in { padding: 8px 16px 6px; gap: 6px; }
+  .marca-txt { font-size: 19px; }
+  .nav { width: 100%; flex-wrap: nowrap; overflow-x: auto; gap: 2px; margin: 0 -6px; scrollbar-width: none; }
+  .nav a { font-size: 11px; letter-spacing: 0.12em; padding: 8px 8px; white-space: nowrap; }
+  .nav a.nav-app { margin-left: auto; }
+  .app-hero-txt h1 { font-size: 38px; }
+  .app-hero-txt > p { font-size: 17px; }
+  .app-hero-txt { gap: 14px; }
+}
+@media (max-width: 560px) {
+  .nav a[href="/#fiestas"] { display: none; }
+  .nav a { padding: 8px 7px; letter-spacing: 0.08em; }
+}
+@media (max-width: 560px) { .solo-ancho { display: none; } }

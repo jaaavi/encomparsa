@@ -43,7 +43,7 @@ export function Cabecera() {
           <Link href="/calendario/">Calendario</Link>
           <Link href="/#fiestas">Fiestas</Link>
           <Link href="/planes/">Para comparsas</Link>
-          <Link href="/app/">La app</Link>
+          <Link href="/app/" className="nav-app">Descargar<span className="solo-ancho"> la app</span></Link>
         </nav>
       </div>
     </header>

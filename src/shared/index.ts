@@ -4,6 +4,7 @@ import fiestasJson from './data/fiestas.json';
 import actosJson from './data/actos.json';
 import ordenJson from './data/orden.json';
 import fuentesJson from './data/fuentes.json';
+import comparsasJson from './data/comparsas.json';
 
 export type Bando = 'cristiano' | 'moro';
 export type Polvora = 'si' | 'no' | 'desconocido';
@@ -28,11 +29,28 @@ export interface OrdenItem {
   bando: Bando; cargo: string | null; nota: string | null;
 }
 export interface Fuente { fiesta: string; titulo: string; url: string; aporta: string }
+/** Entrada del registro de comparsas (y juntas) de cada fiesta. En Firestore: registro/{id}. */
+export interface EntradaRegistro {
+  id: string; fiesta: string; nombre: string; bando: Bando | null; tipo?: 'comparsa' | 'junta';
+  fuente?: string | null; verificada?: boolean;
+  /** Lo rellenan las Cloud Functions cuando alguien la gestiona en la app. */
+  orgId?: string | null; orgNombre?: string | null;
+  contacto?: { nombre: string; email: string | null; telefono: string | null } | null;
+}
 
 export const fiestas = [...(fiestasJson as Fiesta[])];
 export const actos = [...(actosJson as Acto[])];
 export const orden = ordenJson as OrdenItem[];
 export const fuentes = fuentesJson as Fuente[];
+export const registro = (comparsasJson as Omit<EntradaRegistro, 'tipo'>[]).map((c) => ({ ...c, tipo: 'comparsa' as const }));
+
+/** «Filà Navarros» → «fila-navarros». Igual que en las Cloud Functions. */
+export const slugTexto = (t: string) =>
+  t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
+export const idRegistro = (fiesta: string, nombre: string) => `${fiesta}--${slugTexto(nombre)}`;
+export const idJunta = (fiesta: string) => `${fiesta}--junta`;
+/** Comparsas conocidas de una fiesta (datos incluidos en la app). */
+export const registroDe = (slug: string) => registro.filter((c) => c.fiesta === slug);
 
 /** Sustituye el catálogo por uno más reciente (p. ej. el de Firestore). Las funciones de abajo leen siempre estos arrays. */
 export function reemplazarCatalogo(nuevo: { fiestas?: Fiesta[]; actos?: Acto[] }) {
