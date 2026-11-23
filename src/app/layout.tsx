@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { Animaciones } from '@/components/Animaciones';
 import { Cabecera, Pie } from '@/components/Marca';
 // Fuentes alojadas en la propia web (sin llamadas a Google Fonts).
 import '@fontsource/fraunces/600.css';
@@ -21,7 +22,11 @@ export const viewport: Viewport = { themeColor: '#17120D', width: 'device-width'
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('con-js')" }} />
+      </head>
       <body>
+        <Animaciones />
         <Cabecera />
         <main>{children}</main>
         <Pie />

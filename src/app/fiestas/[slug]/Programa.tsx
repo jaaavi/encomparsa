@@ -38,7 +38,7 @@ export function Programa({ actos, dias }: { actos: Acto[]; dias: string[] }) {
               <div className="meta">
                 <span className="tag tag-oro">{a.tipo}</span>
                 {a.polvora === 'si' ? <span className="tag tag-polvora">{ETIQUETA_POLVORA.si}</span> : null}
-                {a.anyo !== Number(dia.slice(0, 4)) ? <span className="tag tag-cristiano">Dato de {a.anyo}</span> : null}
+                {a.previsto ? <span className="tag tag-cristiano">Previsto</span> : a.anyo !== Number(dia.slice(0, 4)) ? <span className="tag tag-cristiano">Dato de {a.anyo}</span> : null}
               </div>
               {a.lugar ? <p className="linea-dato"><b>Dónde:</b> {a.lugar}</p> : null}
               {a.recorrido ? <p className="linea-dato"><b>Recorrido:</b> {a.recorrido}</p> : null}

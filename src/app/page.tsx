@@ -4,6 +4,8 @@ import { Emblema, Rombo } from '@/components/Marca';
 import { ListaProximas } from '@/components/Portada';
 import { Movil, Tiendas } from '@/components/Tiendas';
 import { DIAS_PRUEBA } from '@/lib/config';
+import { REELS } from '@/lib/reels';
+import { CarruselReels } from '@/components/Reels';
 
 const ARCOS = ['var(--gules)', 'var(--azur)', 'var(--sinople)'];
 
@@ -40,9 +42,9 @@ export default function Inicio() {
             </p>
             <Tiendas />
             <div className="app-hero-cifras">
-              <div><b>{fiestas.length}</b><span>fiestas</span></div>
-              <div><b>{actos.length}</b><span>actos con horario</span></div>
-              <div><b>{registro.length}</b><span>comparsas</span></div>
+              <div><b data-cuenta={fiestas.length}>{fiestas.length}</b><span>fiestas</span></div>
+              <div><b data-cuenta={actos.length}>{actos.length}</b><span>actos con horario</span></div>
+              <div><b data-cuenta={registro.length}>{registro.length}</b><span>comparsas</span></div>
             </div>
           </div>
           <div className="app-hero-moviles">
@@ -60,7 +62,7 @@ export default function Inicio() {
         </div>
         <div className="funciones">
           {FUNCIONES.map((f) => (
-            <article key={f.img} className="funcion">
+            <article key={f.img} className="funcion aparece">
               <div className="marco"><Movil src={`/capturas/${f.img}.webp`} alt={f.titulo} /></div>
               <h3>{f.titulo}</h3>
               <p>{f.texto}</p>
@@ -91,7 +93,7 @@ export default function Inicio() {
               <span className="banda-gestion-nota">{DIAS_PRUEBA} días de prueba gratis, sin tarjeta</span>
             </div>
           </div>
-          <div className="banda-gestion-moviles">
+          <div className="banda-gestion-moviles aparece">
             <Movil src="/capturas/4-comparsa.webp" alt="Panel de una comparsa en la app" />
             <Movil src="/capturas/5-miembros.webp" alt="Solicitudes de acceso y censo" />
             <Movil src="/capturas/10-agenda.webp" alt="Agenda de ensayos con asistencia" />
@@ -100,6 +102,16 @@ export default function Inicio() {
       </section>
 
       <div className="contenedor">
+        {REELS.length ? (
+          <>
+            <div className="titulo-seccion">
+              <h2>Las historias de cada fiesta</h2>
+              <span className="muted solo-ancho">En vídeo, en un minuto</span>
+            </div>
+            <CarruselReels reels={REELS} />
+          </>
+        ) : null}
+
         <div className="titulo-seccion">
           <h2>Entra en tu comparsa</h2>
         </div>
@@ -108,7 +120,7 @@ export default function Inicio() {
         </p>
         <ol className="pasos">
           {PASOS.map((p) => (
-            <li key={p.n} className="paso">
+            <li key={p.n} className="paso aparece">
               <span className="paso-n">{p.n}</span>
               <h3>{p.titulo}</h3>
               <p>{p.texto}</p>
@@ -129,7 +141,7 @@ export default function Inicio() {
           {conPrograma.map((f, i) => {
             const e = proximaEdicion(f, hoy);
             return (
-              <Link key={f.slug} href={`/fiestas/${f.slug}/`} className="destacada" style={{ background: ARCOS[i % 3] }}>
+              <Link key={f.slug} href={`/fiestas/${f.slug}/`} className="destacada aparece" style={{ background: ARCOS[i % 3] }}>
                 <Emblema size={64} variante="gules" id={`dest-${f.slug}`} />
                 <span className="etiqueta">{f.enHonorA}</span>
                 <h3>{f.nombre}</h3>
@@ -154,7 +166,7 @@ export default function Inicio() {
           ))}
         </div>
 
-        <section className="banda-app" id="app">
+        <section className="banda-app aparece" id="app">
           <Emblema size={96} variante="oscuro" id="banda" />
           <div>
             <h2>Llévate la fiesta en el bolsillo</h2>

@@ -23,6 +23,8 @@ export interface Acto {
   lugar: string | null; recorrido: string | null; polvora: Polvora; nota: string | null; anyo: number;
   /** Lo rellena la junta desde la app cuando cambia algo. */
   cancelado?: boolean; cambio?: string | null;
+  /** Acto calculado a partir del programa de otro año: fecha y hora pueden cambiar. */
+  previsto?: boolean;
 }
 export interface OrdenItem {
   fiesta: string; desfile: string; fecha: string; orden: number | null; comparsa: string;
@@ -107,11 +109,51 @@ export const fechaLarga = (s: string) => `${diaSemana(s)} ${diaMes(s)} de ${mesL
 export const mayuscula = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 export const fechaLargaAnyo = (s: string) => `${fechaLarga(s)} de ${s.slice(0, 4)}`;
 
+/** «https://www.moroscristiansicontrabandistes.es/» → «moroscristiansicontrabandistes.es» (para mostrar, no para enlazar). */
+export const webCorta = (w: string) => w.replace(/^mailto:/, '').replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/+$/, '');
+
 export const fiesta = (slug: string) => fiestas.find((f) => f.slug === slug);
 export const acto = (id: string) => actos.find((a) => a.id === id);
-export const actosDe = (slug: string) =>
-  actos.filter((a) => a.fiesta === slug).sort((x, y) => (x.fecha + (x.hora ?? '99')).localeCompare(y.fecha + (y.hora ?? '99')));
-export const diasDe = (slug: string) => [...new Set(actosDe(slug).map((a) => a.fecha))];
+const ordenActos = (x: Acto, y: Acto) => (x.fecha + (x.hora ?? '99')).localeCompare(y.fecha + (y.hora ?? '99'));
+const sumarDias = (s: string, n: number) => iso(new Date(d(s).getTime() + n * 86400000));
+
+export interface Programa {
+  actos: Acto[];
+  /** true si los actos vienen del programa de otro año, pasados a las fechas de la próxima edición. */
+  previsto: boolean;
+  /** Año del programa del que salen los actos (null si no hay ninguno). */
+  anyoBase: number | null;
+  edicion: Edicion | null;
+}
+
+/**
+ * Programa de la próxima edición (vía 1). Usa el programa más reciente que tengamos: si es de la misma edición, tal cual;
+ * si es de un año anterior, lo pasa a las fechas nuevas manteniendo el día de fiesta (primer día, segundo…) y lo marca como previsto.
+ */
+export function programaDe(slug: string, hoy = hoyIso()): Programa {
+  const f = fiesta(slug);
+  const todos = actos.filter((a) => a.fiesta === slug);
+  if (!f || !todos.length) return { actos: [], previsto: false, anyoBase: null, edicion: f ? proximaEdicion(f, hoy) : null };
+  const anyoBase = Math.max(...todos.map((a) => a.anyo || Number(a.fecha.slice(0, 4))));
+  const base = todos.filter((a) => (a.anyo || Number(a.fecha.slice(0, 4))) === anyoBase).sort(ordenActos);
+  const e = proximaEdicion(f, hoy);
+  const dentro = base.every((a) => a.fecha >= sumarDias(e.inicio, -10) && a.fecha <= sumarDias(e.fin, 3));
+  if (dentro) return { actos: base, previsto: false, anyoBase, edicion: e };
+  // Inicio de la edición de la que salen los actos: la de la ficha si es de ese año; si no, el primer día con actos.
+  const inicioBase = Number(f.inicio.slice(0, 4)) === anyoBase ? f.inicio : base[0].fecha;
+  const salto = diasEntre(inicioBase, e.inicio);
+  const movidos = base.map((a) => ({ ...a, fecha: sumarDias(a.fecha, salto), anyo: Number(e.inicio.slice(0, 4)), previsto: true }));
+  return { actos: movidos, previsto: true, anyoBase, edicion: e };
+}
+
+/** Actos de la próxima edición (previstos si solo hay programa de otro año). */
+export const actosDe = (slug: string, hoy = hoyIso()) => programaDe(slug, hoy).actos;
+export const diasDe = (slug: string, hoy = hoyIso()) => [...new Set(actosDe(slug, hoy).map((a) => a.fecha))];
+/** Un acto por su id, con la fecha ya pasada a la próxima edición si es previsto. */
+export const actoProgramado = (id: string, hoy = hoyIso()) => {
+  const a = actos.find((x) => x.id === id);
+  return a ? (actosDe(a.fiesta, hoy).find((x) => x.id === id) ?? a) : undefined;
+};
 export const fuentesDe = (slug: string) => fuentes.filter((f) => f.fiesta === slug);
 
 export function desfilesDe(slug: string) {

@@ -2,10 +2,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
-  actosDe, comparsasDe, desfilesDe, diasDe, fiesta, fiestas, fuentesDe, hoyIso, proximaEdicion, rango,
+  comparsasDe, programaDe, webCorta, desfilesDe, fiesta, fiestas, fuentesDe, hoyIso, proximaEdicion, rango,
 } from '@/shared';
-import { Emblema, Estrella } from '@/components/Marca';
-import { Programa } from './Programa';
+import { Emblema } from '@/components/Marca';
+import { ProgramaVivo } from './ProgramaVivo';
+import { reelDe } from '@/lib/reels';
+import { CarruselReels } from '@/components/Reels';
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -24,7 +26,6 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
   const f = fiesta((await params).slug);
   if (!f) notFound();
   const e = proximaEdicion(f, hoyIso());
-  const actos = actosDe(f.slug);
   const comparsas = comparsasDe(f.slug);
   const desfiles = desfilesDe(f.slug);
   const fuentes = fuentesDe(f.slug);
@@ -34,7 +35,7 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
       <section className="ficha-cab">
         <div className="ficha-cab-in">
           <div className="ficha-cab-txt">
-            <span className="etiqueta">{rango(f.inicio, f.fin)} {anyo} · {f.provincia}</span>
+            <span className="etiqueta">{rango(e.inicio, e.fin)} {e.inicio.slice(0, 4)}{e.aproximada ? ' (previsto)' : ''} · {f.provincia}</span>
             <h1>{f.nombre}</h1>
             <div className="tags">
               {f.enHonorA ? <span className="tag tag-oro">En honor a {f.enHonorA}</span> : null}
@@ -42,7 +43,7 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
             </div>
             {e.aproximada ? (
               <span className="ficha-aprox">
-                Datos de la edición de {anyo}. La próxima sería hacia el {rango(e.inicio, e.fin)} de {e.inicio.slice(0, 4)}, pendiente del programa oficial.
+                Fechas calculadas a partir de la edición de {anyo} ({rango(f.inicio, f.fin)}), pendientes de confirmar con el programa oficial.
               </span>
             ) : null}
           </div>
@@ -56,28 +57,7 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
       <div className="contenedor" style={{ marginTop: 36 }}>
         <div className="ficha-cuerpo">
           <div>
-            {actos.length ? (
-              <>
-                <div className="titulo-seccion" style={{ marginTop: 0 }}>
-                  <h2>Programa {anyo}</h2>
-                  <span className="linea" />
-                </div>
-                <Programa actos={actos} dias={diasDe(f.slug)} />
-              </>
-            ) : (
-              <div className="filete vacio">
-                <Estrella size={28} />
-                <h2>Programa pendiente</h2>
-                <p className="muted">
-                  Aún no tenemos los horarios de {f.nombre}. Los añadiremos en cuanto la organización publique el programa.
-                </p>
-                {f.web ? (
-                  <a className="boton boton-sec" href={webUrl(f.web)} target="_blank" rel="noopener noreferrer">
-                    Web de la organización
-                  </a>
-                ) : null}
-              </div>
-            )}
+            <ProgramaVivo slug={f.slug} inicial={programaDe(f.slug, hoyIso())} nombre={f.nombre} web={f.web} />
 
             {comparsas.length ? (
               <>
@@ -123,13 +103,19 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
           </div>
 
           <aside className="lateral">
+            {reelDe(f.slug) ? (
+              <div className="filete reel-lateral">
+                <h2>La historia, en vídeo</h2>
+                <CarruselReels reels={[reelDe(f.slug)!]} />
+              </div>
+            ) : null}
             <div className="filete">
               <h2>La fiesta</h2>
               <dl style={{ margin: 0, display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {[
                   ['Organiza', f.organizador],
                   ['En honor a', f.enHonorA],
-                  ['Fechas', `${rango(f.inicio, f.fin)} ${anyo}`],
+                  ['Fechas', `${rango(e.inicio, e.fin)} ${e.inicio.slice(0, 4)}${e.aproximada ? ' (previsto)' : ''}`],
                   ['Declaración turística', f.declaracion],
                 ].filter(([, v]) => v).map(([k, v]) => (
                   <div className="dato" key={k}>
@@ -140,7 +126,7 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
                 {f.web ? (
                   <div className="dato">
                     <dt>Web o contacto</dt>
-                    <dd><a href={webUrl(f.web)} target="_blank" rel="noopener noreferrer">{f.web}</a></dd>
+                    <dd><a href={webUrl(f.web)} target="_blank" rel="noopener noreferrer">{webCorta(f.web)}</a></dd>
                   </div>
                 ) : null}
               </dl>
