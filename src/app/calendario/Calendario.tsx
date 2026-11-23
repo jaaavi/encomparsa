@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { filtroProvincia, porMes } from '@/shared';
 import { useHoy } from '@/components/useHoy';
 import { TarjetaFiesta } from '@/components/TarjetaFiesta';
-import { Rombo } from '@/components/Marca';
 
 const FILTROS = ['Todas', 'Alicante', 'Valencia', 'Murcia', 'Otras'];
 
@@ -32,9 +31,7 @@ export function Calendario({ hoyBuild }: { hoyBuild: string }) {
       {grupos.map((g) => (
         <section key={g.clave}>
           <div className="mes-titulo">
-            <Rombo />
             <h2>{g.titulo}</h2>
-            <span className="linea" />
           </div>
           <div className="rejilla">
             {g.items.map(({ f, e }, i) => (

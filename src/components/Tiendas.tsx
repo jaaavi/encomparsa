@@ -43,11 +43,16 @@ export function Tiendas({ oscuro }: { oscuro?: boolean }) {
   );
 }
 
-/** Captura de la app dentro de un marco de móvil. */
-export function Movil({ src, alt, className = '' }: { src: string; alt: string; className?: string }) {
+/**
+ * Captura de la app dentro de un móvil a proporción real (pantalla 390 × 844, como un iPhone o un Android actual).
+ * El grosor del marco, las esquinas y la isla se calculan a partir del ancho (`--w`), así que nunca se deforma.
+ */
+export function Movil({ src, alt, className = '', ancho, prioridad }: { src: string; alt: string; className?: string; ancho?: string; prioridad?: boolean }) {
   return (
-    <div className={`movil ${className}`}>
-      <img src={src} alt={alt} width={540} height={960} loading="lazy" decoding="async" />
+    <div className={`movil ${className}`} style={ancho ? ({ '--w': ancho } as React.CSSProperties) : undefined}>
+      <div className="movil-pantalla">
+        <img src={src} alt={alt} width={780} height={1688} loading={prioridad ? 'eager' : 'lazy'} decoding="async" />
+      </div>
     </div>
   );
 }

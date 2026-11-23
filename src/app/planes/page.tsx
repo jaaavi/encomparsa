@@ -39,8 +39,8 @@ export default function Planes() {
                 {COMUN.map((t) => <li key={t}><Rombo /> <span>{t}</span></li>)}
                 {k === 'junta' ? (
                   <>
-                    <li><Rombo color="#8E1B23" /> <span><strong>Edita el programa oficial</strong> de tu fiesta en la app</span></li>
-                    <li><Rombo color="#8E1B23" /> <span><strong>Avisa al momento</strong> a todos los que siguen la fiesta si cambia una hora o un recorrido</span></li>
+                    <li><Rombo color="#B3242E" /> <span><strong>Edita el programa oficial</strong> de tu fiesta en la app</span></li>
+                    <li><Rombo color="#B3242E" /> <span><strong>Avisa al momento</strong> a todos los que siguen la fiesta si cambia una hora o un recorrido</span></li>
                   </>
                 ) : null}
               </ul>

@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import {
   actosDe, comparsasDe, desfilesDe, diasDe, fiesta, fiestas, fuentesDe, hoyIso, proximaEdicion, rango,
 } from '@/shared';
-import { Estrella } from '@/components/Marca';
+import { Emblema, Estrella } from '@/components/Marca';
 import { Programa } from './Programa';
 
 export const dynamicParams = false;
@@ -33,22 +33,24 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
     <>
       <section className="ficha-cab">
         <div className="ficha-cab-in">
-          <Estrella size={48} fondo="#8E1B23" />
-          <span className="etiqueta">Moros y Cristianos · {f.provincia}</span>
-          <h1>{f.nombre}</h1>
-          <span className="fechas">
-            {rango(f.inicio, f.fin)} {anyo}
-          </span>
-          <div className="tags">
-            {f.enHonorA ? <span className="tag tag-oro">En honor a {f.enHonorA}</span> : null}
-            {f.declaracion ? <span className="tag tag-oro">Interés Turístico {f.declaracion}</span> : null}
+          <div className="ficha-cab-txt">
+            <span className="etiqueta">{rango(f.inicio, f.fin)} {anyo} · {f.provincia}</span>
+            <h1>{f.nombre}</h1>
+            <div className="tags">
+              {f.enHonorA ? <span className="tag tag-oro">En honor a {f.enHonorA}</span> : null}
+              {f.declaracion ? <span className="tag tag-oro">Interés Turístico {f.declaracion}</span> : null}
+            </div>
+            {e.aproximada ? (
+              <span className="ficha-aprox">
+                Datos de la edición de {anyo}. La próxima sería hacia el {rango(e.inicio, e.fin)} de {e.inicio.slice(0, 4)}, pendiente del programa oficial.
+              </span>
+            ) : null}
           </div>
-          {e.aproximada ? (
-            <span style={{ fontSize: 15, color: '#E9D6B5', maxWidth: 560 }}>
-              Datos de la edición de {anyo}. La próxima sería hacia el {rango(e.inicio, e.fin)} de {e.inicio.slice(0, 4)}, pendiente del programa oficial.
-            </span>
-          ) : null}
+          <div className="arco-partido" aria-hidden="true">
+            <Emblema size={120} variante="oscuro" id={`ficha-${f.slug}`} />
+          </div>
         </div>
+        <div className="partido" aria-hidden="true"><span /><span /></div>
       </section>
 
       <div className="contenedor" style={{ marginTop: 36 }}>
@@ -64,7 +66,7 @@ export default async function PaginaFiesta({ params }: { params: Promise<{ slug:
               </>
             ) : (
               <div className="filete vacio">
-                <Estrella size={40} />
+                <Estrella size={28} />
                 <h2>Programa pendiente</h2>
                 <p className="muted">
                   Aún no tenemos los horarios de {f.nombre}. Los añadiremos en cuanto la organización publique el programa.
